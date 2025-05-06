@@ -1,0 +1,130 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--color-text);
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  justify-self: end;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-text-light);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: var(--color-accent);
+}
+
+.menuToggle {
+  position: relative;
+  display: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 20;
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+}
+
+.menuToggle span {
+  background-color: var(--color-line);
+  position: absolute;
+  display: block;
+  width: 1em;
+  height: 0.08em;
+  transition: 0.15s ease-in-out;
+}
+
+.menuToggle span:nth-of-type(1) {
+  translate: 0 -0.25em;
+}
+
+.menuToggle span:nth-of-type(2) {
+  translate: 0 0.25em;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .menuToggle {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--color-background);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+
+    opacity: 0;
+    transform: translateY(-100%);
+    visibility: hidden;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out,
+      visibility 1s ease-in-out;
+  }
+  .nav a:first-of-type {
+    --index: 0;
+  }
+  .nav a:nth-of-type(2) {
+    --index: 1;
+  }
+  .nav a:last-of-type {
+    --index: 3;
+  }
+
+  .nav a {
+    opacity: 0;
+    margin-top: -0.25em;
+  }
+
+  .nav.open {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .nav.open a {
+    opacity: 1;
+    margin-top: 0;
+    transition: 0.25s calc(0.5s + 0.02s * var(--index));
+  }
+
+  .open .menuToggle span:nth-of-type(1) {
+    translate: 0 0;
+    rotate: 45deg;
+    z-index: 2000;
+  }
+
+  .open .menuToggle span:nth-of-type(2) {
+    translate: 0 0;
+    rotate: -45deg;
+    z-index: 2000;
+  }
+}

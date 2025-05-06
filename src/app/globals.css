@@ -1,6 +1,18 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-background: #ffffff;
+  --color-border: #eeeeee;
+  --color-text: #000000;
+  --color-text-light: #333333;
+  --color-accent: #0070f3;
+  --color-line: #000000;
+
+  --color-code-bg: #1e1e1e;
+  --color-code-text: #d4d4d4;
+  --color-code-accent: #569cd6;
+  --color-code-warning: #dcdcaa;
+  --color-code-error: #f44747;
+
+  --color-camera-body: #2c2c2c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +34,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-border);
 }
 
 * {
@@ -38,5 +51,23 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  align-self: center;
+  flex: 1;
+  width: 90vw;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100vw;
   }
 }

@@ -1,0 +1,134 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5em;
+  align-items: stretch;
+  padding: 5em 1.25em;
+  grid-template-areas: "leftContent rightContent";
+  background-color: var(--color-background);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-area: leftContent;
+  min-height: 15.625em;
+}
+
+.heroHeading {
+  font-size: 2.25em;
+  color: var(--color-text);
+  margin-bottom: 1em;
+}
+
+.heroText {
+  font-size: 1.125em;
+  color: var(--color-text-light);
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  grid-area: rightContent;
+  min-height: 15.625em;
+  flex-grow: 1;
+}
+
+.editor {
+  background: var(--color-code-bg);
+  border: 1px solid #333;
+  border-radius: 0.75em;
+  box-shadow: 0 0 1.25em rgba(0, 0, 0, 0.4);
+  padding: 1.5em 2em;
+  color: var(--color-code-text);
+  max-width: 37.5em;
+  width: 100%;
+  height: 23em;
+  animation: float 3s ease-in-out infinite;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375em;
+}
+
+.line {
+  display: flex;
+  gap: 1em;
+  font-size: 1.25em;
+  line-height: 1.6;
+  transition: transform 0.4s ease;
+}
+
+.lineNumber {
+  color: var(--color-code-line-number);
+  width: 1.5em;
+  text-align: right;
+  user-select: none;
+}
+
+.lineContent {
+  color: var(--color-code-text);
+}
+
+.correct {
+  color: var(--color-code-accent);
+  padding-left: 2em;
+}
+
+.van {
+  color: var(--color-code-warning);
+  padding-left: 2em;
+}
+
+.error {
+  color: var(--color-code-error);
+  padding-left: 2em;
+}
+
+.errorMessage {
+  margin-top: 1.5em;
+  background: #1a1a1a;
+  padding: 0.75em 1em;
+  border-left: 0.25em solid var(--color-code-error);
+  color: var(--color-code-error);
+  font-size: 0.875em;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 2em 1.25em;
+    grid-template-areas:
+      "leftContent"
+      "rightContent";
+  }
+
+  .leftContent {
+    margin-bottom: 2.5em;
+  }
+
+  .rightContent {
+    display: block;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 0 1.25em rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    transform: translateY(-0.5em);
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 0 1.25em rgba(0, 0, 0, 0.4);
+  }
+}
