@@ -5,7 +5,6 @@ import styles from "./Hero.module.css";
 export default function Hero() {
   const [isCorrect, setIsCorrect] = useState(true);
   const [nameResult, setNameResult] = useState("");
-  const [scrollStyle, setScrollStyle] = useState({});
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -16,28 +15,6 @@ export default function Hero() {
       });
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const y = window.scrollY;
-      const maxScroll = 300;
-      const ratio = Math.min(y / maxScroll, 1);
-
-      const opacity = 1 - ratio * 0.5;
-      const scale = 1 - ratio * 0.2;
-      const translateY = -ratio * 20;
-
-      setScrollStyle({
-        opacity: opacity.toFixed(6),
-        transform: `scale(${scale.toFixed(6)}) translateY(${translateY.toFixed(
-          6
-        )}px)`,
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const lines = isCorrect
@@ -57,12 +34,17 @@ export default function Hero() {
       ];
 
   return (
-    <section className={styles.hero} style={scrollStyle}>
+    <section className={styles.hero}>
       <div className={styles.leftContent}>
         <h1 className={styles.heroHeading}>Welcome to my Website</h1>
         <p className={styles.heroText}>
-          Hi ik ben Liam van Bart Aspirant front-end developer
+          Hi ik ben Liam van Bart, aspirant front-end developer
         </p>
+        <img
+          src="./Liam.jpg"
+          alt="Liam van Bart"
+          className={styles.profileImage}
+        />
       </div>
 
       <div className={styles.rightContent}>

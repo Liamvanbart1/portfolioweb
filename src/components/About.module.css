@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.875em;
-  background: radial-gradient(circle at center, #2a2a2e, #111);
+
   padding: 2.5em;
   border-radius: 1.25em;
   perspective: 75em;
