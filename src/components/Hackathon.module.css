@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-areas:
+    "hackaton"
+    "reflectie"
+    "inzichten";
+  background-color: var(--color-background);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  color: var(--color-text);
+}
+
+.hackaton {
+  display: flex;
+  flex-direction: row;
+}
+
+.reflectie {
+  display: flex;
+  flex-direction: row;
+}
+
+.inzichten {
+  display: flex;
+  flex-direction: row;
+}

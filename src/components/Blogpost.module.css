@@ -1,9 +1,10 @@
 .blogPost {
-  background-color: #fff;
+  background-color: var(--color-background);
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin: 2rem 0;
+  color: var(--color-text);
 }
 
 .header {
@@ -30,7 +31,7 @@
 
 .title {
   font-size: 2rem;
-  color: #333;
+  color: var(--color-text-light);
 }
 
 .meta {
@@ -48,18 +49,18 @@
 
 .content {
   font-size: 1.1rem;
-  color: #444;
+  color: var(--color-text);
   line-height: 1.6;
   margin-bottom: 2rem;
 }
 
 .reflection {
-  background-color: #f9f9f9;
+  background-color: var(--background-color1);
   padding: 1.5rem;
   border-radius: 6px;
 }
 
 .reflection h2 {
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--color-text-light);
 }

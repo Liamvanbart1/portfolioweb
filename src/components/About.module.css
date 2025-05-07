@@ -1,7 +1,7 @@
 .table {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.875em;
+  gap: 4vw;
   padding: 2.5em;
   border-radius: 1.25em;
   perspective: 75em;
@@ -12,6 +12,7 @@
 }
 
 .container {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,8 +53,8 @@
 }
 
 .card {
-  width: 20em;
-  height: 27.25em;
+  width: 17em;
+  height: 24.25em;
   transform-style: preserve-3d;
   position: relative;
   animation: float 3s infinite ease-in-out;
@@ -116,7 +117,7 @@
   color: #ccc;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 895px) {
   .table {
     grid-template-columns: 1fr;
     grid-template-areas:
