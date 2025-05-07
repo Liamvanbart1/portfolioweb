@@ -10,6 +10,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <h1 className={styles.h1}>Leerdoelen voor de minor</h1>
+      <p className={styles.p}>Wat wil ik tijdens de minor leren?</p>
       <div className={styles.table}>
         <div
           className={styles.card}
@@ -21,7 +22,13 @@ export default function About() {
               Leerdoel 1
             </div>
             <div className={`${styles.cardFace} ${styles.cardBack}`}>
-              <div>Master frontend fundamentals:</div>
+              <div>
+                Ik wil nog meer leren over CSS. Ik heb de basis aan het begin
+                van de opleiding geleerd, maar heb daar te lang op vertrouwd. Ik
+                merk tijdens de minor dat er nog veel dingen zijn die ik niet
+                weet en die vaak handiger/beter zijn dan de oplossingen die ik
+                bedenk.
+              </div>
             </div>
           </div>
         </div>
@@ -36,7 +43,13 @@ export default function About() {
               Leerdoel 2
             </div>
             <div className={`${styles.cardFace} ${styles.cardBack}`}>
-              <div>Understand modern tooling:</div>
+              <div>
+                {" "}
+                Ik wil graag meer leren over back-end. Tijdens de API's zijn we
+                hier al een klein beetje mee bezig geweest door NodeJS te
+                gebruiken en dit vond ik erg interessant. Ik hoop hier tijdens
+                de meesterproef meer over te kunnen leren.
+              </div>
             </div>
           </div>
         </div>
@@ -51,7 +64,11 @@ export default function About() {
               Leerdoel 3
             </div>
             <div className={`${styles.cardFace} ${styles.cardBack}`}>
-              <div>Build full-stack apps:</div>
+              <div>
+                Ik wil tijdens de meesterproef graag taakgerichter worden en
+                mijn taken op tijd afmaken. Ik merk dat ik vaak goede ideeën
+                heb, maar deze door tijdgebrek uiteindelijk niet kan realiseren.
+              </div>
             </div>
           </div>
         </div>

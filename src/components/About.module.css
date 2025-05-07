@@ -29,6 +29,16 @@
   background-color: var(--color-accent);
 }
 
+.p {
+  padding: 0.1em;
+  background-color: var(--color-accent);
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--color-text-text);
+  max-width: 40ch;
+  line-height: 1.6;
+}
+
 .card:nth-child(1) {
   grid-area: card1;
 }
@@ -42,8 +52,8 @@
 }
 
 .card {
-  width: 10em;
-  height: 13.75em;
+  width: 20em;
+  height: 27.25em;
   transform-style: preserve-3d;
   position: relative;
   animation: float 3s infinite ease-in-out;
@@ -91,13 +101,13 @@
   font-size: 1em;
   font-weight: bold;
   color: white;
-  text-align: center;
   line-height: 1.4;
   white-space: pre-wrap;
 }
 
 .cardFront {
-  background: crimson;
+  background: var(--color-accent);
+  font-size: 2em;
 }
 
 .cardBack {
