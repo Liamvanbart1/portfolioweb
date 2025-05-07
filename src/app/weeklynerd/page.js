@@ -316,56 +316,56 @@ The visually impaired are no. 1`;
         title="Stop Using JS for That"
         author="Kylian Valkhof"
         content={content1}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
       <BlogPost
         title="Pay the Web Forward"
         author="Peter-Paul Koch"
         content={content2}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
       <BlogPost
         title="GSAP"
         author="Cassie Evans"
         content={content3}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
       <BlogPost
         title="Hackers United"
         author="Rosa"
         content={content4}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
       <BlogPost
         title="Declarative Design"
         author="Jeremy Keith"
         content={content5}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
       <BlogPost
         title="Project Fugu"
         author="Niels Leenheer"
         content={content6}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
       <BlogPost
         title="Practical fixes for common WCAG issues"
         author="Erik Kroes"
         content={content7}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
       <BlogPost
         title="Thinking outside of the accessibility box"
         author="Nienke de Keijzer"
         content={content8}
-        reflection="In this section, I reflect on what I learned from writing this post."
+        reflection="Hier komt nog een reflectie per weekly nerd"
         imageUrl="https://example.com/john-doe.jpg"
       />
     </>

@@ -101,7 +101,7 @@
   padding: 1em;
   font-size: 1em;
   font-weight: bold;
-  color: white;
+  color: var(--color-text);
   line-height: 1.4;
   white-space: pre-wrap;
 }

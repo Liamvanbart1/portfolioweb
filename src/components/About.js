@@ -23,13 +23,10 @@ export default function About() {
               Leerdoel 1
             </div>
             <div className={`${styles.cardFace} ${styles.cardBack}`}>
-              <div>
-                Ik wil nog meer leren over CSS. Ik heb de basis aan het begin
-                van de opleiding geleerd, maar heb daar te lang op vertrouwd. Ik
-                merk tijdens de minor dat er nog veel dingen zijn die ik niet
-                weet en die vaak handiger/beter zijn dan de oplossingen die ik
-                bedenk.
-              </div>
+              Ik wil nog meer leren over CSS. Ik heb de basis aan het begin van
+              de opleiding geleerd, maar heb daar te lang op vertrouwd. Ik merk
+              tijdens de minor dat er nog veel dingen zijn die ik niet weet en
+              die vaak handiger/beter zijn dan de oplossingen die ik bedenk.
             </div>
           </div>
         </div>
@@ -44,13 +41,10 @@ export default function About() {
               Leerdoel 2
             </div>
             <div className={`${styles.cardFace} ${styles.cardBack}`}>
-              <div>
-                {" "}
-                Ik wil graag meer leren over back-end. Tijdens de API zijn we
-                hier al een klein beetje mee bezig geweest door NodeJS te
-                gebruiken en dit vond ik erg interessant. Ik hoop hier tijdens
-                de meesterproef meer over te kunnen leren.
-              </div>
+              Ik wil graag meer leren over back-end. Tijdens de API zijn we hier
+              al een klein beetje mee bezig geweest door NodeJS te gebruiken en
+              dit vond ik erg interessant. Ik hoop hier tijdens de meesterproef
+              meer over te kunnen leren.
             </div>
           </div>
         </div>
@@ -65,11 +59,9 @@ export default function About() {
               Leerdoel 3
             </div>
             <div className={`${styles.cardFace} ${styles.cardBack}`}>
-              <div>
-                Ik wil tijdens de meesterproef graag taakgerichter worden en
-                mijn taken op tijd afmaken. Ik merk dat ik vaak goede ideeën
-                heb, maar deze door tijdgebrek uiteindelijk niet kan realiseren.
-              </div>
+              Ik wil tijdens de meesterproef graag taakgerichter worden en mijn
+              taken op tijd afmaken. Ik merk dat ik vaak goede ideeën heb, maar
+              deze door tijdgebrek uiteindelijk niet kan realiseren.
             </div>
           </div>
         </div>

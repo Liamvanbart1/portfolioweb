@@ -14,15 +14,33 @@
 
 .hackaton {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  min-height: 10em;
 }
 
 .reflectie {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  min-height: 10em;
 }
 
 .inzichten {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  min-height: 10em;
+}
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  background-color: var(--background-color1);
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+
+.svg {
+  fill: var(--svgcolor);
+  width: 25px;
+  height: 25px;
+  margin-left: 1em;
 }
