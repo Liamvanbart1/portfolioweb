@@ -24,8 +24,8 @@ export default function Hero() {
       const maxScroll = 300;
       const ratio = Math.min(y / maxScroll, 1);
 
-      const opacity = 1 - ratio * 0.5; // Fades to 50% opacity at max scroll
-      const scale = 1 - ratio * 0.2; // Scales down to 80% size
+      const opacity = 1 - ratio * 0.5;
+      const scale = 1 - ratio * 0.2;
       const translateY = -ratio * 20;
 
       setScrollStyle({
@@ -61,8 +61,7 @@ export default function Hero() {
       <div className={styles.leftContent}>
         <h1 className={styles.heroHeading}>Welcome to my Website</h1>
         <p className={styles.heroText}>
-          Hi, I'm Liam van Bart, a passionate developer and creative individual.
-          Explore my work and get in touch!
+          Hi ik ben Liam van Bart Aspirant front-end developer
         </p>
       </div>
 
