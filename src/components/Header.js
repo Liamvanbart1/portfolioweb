@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import styles from "./Header.module.css";
+import Link from "next/link";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,10 +26,10 @@ export default function Header() {
       <nav className={`${styles.nav} ${isOpen ? styles.open : ""}`}>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/weeklynerd">Weekly Nerd</a>
+            <Link href="/weeklynerd">Weekly Nerd</Link>
           </li>
           {/* <li>
             <a href="/projecten">Projecten</a>

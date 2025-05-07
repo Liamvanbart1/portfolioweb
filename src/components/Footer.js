@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -6,9 +7,9 @@ export default function Footer() {
       <div className={styles.content}>
         <span className={styles.logo}>Liam van Bart</span>
         <nav className={styles.links}>
-          <a href="/">Home</a>
-          <a href="/projecten">Projecten</a>
-          <a href="/weeklynerd">Weekly Nerd</a>
+          <Link href="/">Home</Link>
+          <Link href="/projecten">Projecten</Link>
+          <Link href="/weeklynerd">Weekly Nerd</Link>
         </nav>
         <span className={styles.copy}>
           &copy; {new Date().getFullYear()} All rights reserved

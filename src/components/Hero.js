@@ -36,7 +36,7 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.leftContent}>
-        <h1 className={styles.heroHeading}>Welkom op mijn blog</h1>
+        <h1 className={styles.heroHeading}>Welkom op mijn</h1>
         <p className={styles.heroText}>
           Hi ik ben Liam van Bart, aspirant front-end developer
         </p>
@@ -59,7 +59,7 @@ export default function Hero() {
             <div className={styles.line}>
               <span className={styles.lineNumber}></span>
               <span className={styles.lineContent}>
-                console.log("Result: ", getName());
+                console.log(&quot;Result: &quot;, getName());
               </span>
             </div>
             <div className={styles.line}>
@@ -72,7 +72,7 @@ export default function Hero() {
             <div className={styles.errorMessage}>
               <span>
                 <strong>20:</strong> ⚠️ SyntaxError: Unexpected identifier
-                'Bart'
+                &apos;Bart&apos;
               </span>
             </div>
           )}

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./About.module.css";
+import Link from "next/link";
 
 export default function About() {
   const [flip1, setFlip1] = useState(false);
@@ -45,7 +46,7 @@ export default function About() {
             <div className={`${styles.cardFace} ${styles.cardBack}`}>
               <div>
                 {" "}
-                Ik wil graag meer leren over back-end. Tijdens de API's zijn we
+                Ik wil graag meer leren over back-end. Tijdens de API zijn we
                 hier al een klein beetje mee bezig geweest door NodeJS te
                 gebruiken en dit vond ik erg interessant. Ik hoop hier tijdens
                 de meesterproef meer over te kunnen leren.
