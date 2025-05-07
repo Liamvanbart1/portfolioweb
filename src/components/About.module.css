@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.875em;
-
   padding: 2.5em;
   border-radius: 1.25em;
   perspective: 75em;
@@ -10,6 +9,24 @@
   position: relative;
   min-height: 16.25em;
   grid-template-areas: "card1 card2 card3";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 3em;
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  padding: 0.1em;
+  background-color: var(--color-accent);
 }
 
 .card:nth-child(1) {
