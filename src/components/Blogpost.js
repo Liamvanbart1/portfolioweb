@@ -1,5 +1,3 @@
-import styles from "./BlogPost.module.css";
-
 const BlogPost = ({ title, author, date, content, reflection, imageUrl }) => {
   return (
     <div className={styles.blogPost}>
