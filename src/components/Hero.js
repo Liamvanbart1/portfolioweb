@@ -36,7 +36,7 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.leftContent}>
-        <h1 className={styles.heroHeading}>Welkom op mijn</h1>
+        <h1 className={styles.heroHeading}>Welkom op mijn blog</h1>
         <p className={styles.heroText}>
           Hi ik ben Liam van Bart, aspirant front-end developer
         </p>
