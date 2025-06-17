@@ -77,7 +77,7 @@ const Hackathon = () => {
             bij de meesterproef ook verder geholpen bij leerdoel 2. Ik ben veel
             verder gekomen in het begrijpen hoe de achterkant van een website
             werkt en ik denk dat dit hele waardevolle informatie is. Ik wil niet
-            per se iets met back-end development gaan doen, maar op z'n minst
+            per se iets met back-end development gaan doen, maar op zijn minst
             begrijpen hoe het werkt is in mijn ogen al hele waardevolle
             informatie. Leerdoel 3 is tijdens de meesterproef zeker goed gelukt.
             We hebben tijdens de meesterproef een strakke planning gehanteerd en
