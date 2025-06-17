@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ProjectCard.module.css";
+import styles from "./Projectcard.module.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const ProjectCard = ({ name, link }) => {
