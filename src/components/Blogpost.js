@@ -15,7 +15,7 @@ const BlogPost = ({ title, author, date, content, reflection, imageUrl }) => {
         </div>
       </header>
       <div className={styles.content}>
-        <p>{content}</p>
+        <div className={styles.mdxContent}>{content}</div>
       </div>
       <section className={styles.reflection}>
         <h2>Reflectie</h2>
