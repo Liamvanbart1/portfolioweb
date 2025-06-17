@@ -1,12 +1,12 @@
 "use client";
 import { useState } from "react";
 import styles from "./About.module.css";
-import Link from "next/link";
 
 export default function About() {
   const [flip1, setFlip1] = useState(false);
   const [flip2, setFlip2] = useState(false);
   const [flip3, setFlip3] = useState(false);
+  const [flip4, setFlip4] = useState(false);
 
   return (
     <div className={styles.container}>

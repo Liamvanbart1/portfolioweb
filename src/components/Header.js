@@ -31,9 +31,9 @@ export default function Header() {
           <li>
             <Link href="/weeklynerd">Weekly Nerd</Link>
           </li>
-          {/* <li>
+          <li>
             <a href="/projecten">Projecten</a>
-          </li> */}
+          </li>
           <li className={styles.hiddenlink}>
             <a href="https://github.com/Liamvanbart1">Github</a>
           </li>

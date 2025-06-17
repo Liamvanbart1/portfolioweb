@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  grid-template-areas: "hackaton";
+  background-color: var(--color-background);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  color: var(--color-text);
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  min-height: 10em;
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  background-color: var(--background-color1);
+  border-radius: 6px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease;
+}
+
+.content:hover {
+  background-color: var(--background-color2);
+}
