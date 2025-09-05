@@ -13,7 +13,7 @@ const page = () => {
       <ProjectCard
         name="Browser Tech"
         link="https://github.com/Liamvanbart1/BT"
-        reflectie="Ik vond Browser Tech erg interessant omdat ik nu pas inzicht kreeg ik hoe krachtig HTML alleen al kan zijn. Dit in combinatie met de volledige vrijheid om te spelen met CSS en Javascript maakte dit een leuk vak. Ik heb nieuwe HTML elementen geleerd en ook hoe je creatief gebruik kan maken van bijvoorbeeld de :has selector in CSS. Ik werkte volgens the Rule of Least Power dus pas naar een moeilijkere taal gaan als het echt niet anders kon."
+        reflectie="Ik vond Browser Tech erg interessant omdat  nu pas inzicht kreeg ik hoe krachtig HTML alleen al kan zijn. Dit in combinatie met de volledige vrijheid om te spelen met CSS en Javascript maakte dit een leuk vak. Ik heb nieuwe HTML elementen geleerd en ook hoe je creatief gebruik kan maken van bijvoorbeeld de :has selector in CSS. Ik werkte volgens the Rule of Least Power dus pas naar een moeilijkere taal gaan als het echt niet anders kon."
       />
       <ProjectCard
         name="API"
