@@ -23,7 +23,7 @@ const page = () => {
       <ProjectCard
         name="Hackathon"
         link="https://github.com/Liamvanbart1/Team10"
-        reflectie="De reflectie van de Hackathon staat op de Homepagina"
+        reflectie="De reflectie van de Hackathon staat op de de Homepagina"
       />
       <ProjectCard
         name="HCD"
